@@ -45,7 +45,7 @@ for ateCr, coordc in ateF.items():
     folium.Marker(coordc,
                   popup=f'<b>{ ateF }</b><br>{ coordc }',
                   tooltip=f'<b>ATE Co</b><br>{ ateF }',
-                  icon=folium.Icon(color='lightblue', icon_color='#085a08', icon='fa-plus-square-o', prefix='fa'),
+                  icon=folium.Icon(color='lightblue', icon_color='#085a08', icon='fa-tree', prefix='fa'),
 
            ).add_to(m)
     
@@ -53,7 +53,7 @@ for ateHv, coordc in ateF.items():
     folium.Marker(coordc,
                   popup=f'<b>{ ateF }</b><br>{ coordc }',
                   tooltip=f'<b>ATE Haute Vienne</b><br>{ ateF }',
-                  icon=folium.Icon(color='lightpink', icon_color='#085a08', icon='fa-plus-square-o', prefix='fa'),
+                  icon=folium.Icon(color='lightpink', icon_color='#085a08', icon='fa-tree', prefix='fa'),
 
            ).add_to(m)
   
@@ -62,7 +62,7 @@ for ateCo, coordc in ateF.items():
     folium.Marker(coordc,
                   popup=f'<b>{ ateF }</b><br>{ coordc }',
                   tooltip=f'<b>ATE Corrèze</b><br>{ ateF }',
-                  icon=folium.Icon(color='lightgreen', icon_color='#FFB6C1', icon='fa-plus-square-o', prefix='fa'),
+                  icon=folium.Icon(color='lightgreen', icon_color='#FFB6C1', icon='fa-tree', prefix='fa'),
 
            ).add_to(m)
 
