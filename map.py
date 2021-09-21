@@ -5,9 +5,7 @@ jsonF = 'lim.json'
 
 
 ateCr = {
-    "Ecole d'Ars": (46.004588816648365, 2.07823209410532),    
-    
-    
+    "Ecole d'Ars": (46.004588816648365, 2.07823209410532),  
     
     "Groupe Scolaire Tristan L'Hermite La Souterraine":(46.241512238858995, 1.497249553231962),
     
